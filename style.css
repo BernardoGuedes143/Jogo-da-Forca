@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-principal: #4A0BE3;
+    --cor-secundaria: #0BDFE3;
+    --cor-terciaria: #9458F5;
+}
+
+body {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    border: 5px solid var(--cor-secundaria);
+    max-height: 600px;
+    max-width: 500px;
+    margin-right: 0%;
+    margin-bottom: 5%;
+}
+
+#letrasdiv {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#letras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#letrasdigitadas {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+#p {
+    display: flex;
+    order: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+input {
+    font-family: "Work Sans", sans-serif;
+    color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+
+    max-width: 15px;
+    max-height: 20px;
+}
+
+#inputletra {
+    
+    max-width: 120px;
+    font-weight: 800;
+
+}
+
+button{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    
+    background-color: var(--cor-secundaria);
+    padding: 1%;
+    border-radius: 20%;
+
+}
