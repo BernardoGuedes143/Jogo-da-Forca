@@ -14,6 +14,13 @@ body {
     font-weight: 800;
 }
 
+.s1{
+    display:flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
 header {
     text-align: center;
 }
@@ -45,13 +52,30 @@ img {
     gap: 20px;
 }
 
-#letrasdigitadas {
+#letrasdigitadas{
+     display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.letraserradas {
     display: flex;
     list-style-type: none;
     gap: 10px;
     align-items: center;
     justify-content: center;
     color: red;
+}
+
+.letrascertas{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #93DA97;
 }
 
 #p {
